@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(images/river.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 70px;
+}
+
+.form, .btnDiv{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.btn{
+    width: 200px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background: #ffffff4b;
+    color: #fff;
+    cursor: pointer;
+    padding: 4px;
+    transition: .3s;
+    }
+
+.btn:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    scale: 1.05;
+}
+
+.inputText{
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 2px solid green;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+ .location{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+ }
+
+.temp{
+    font-size: 40px;
+    color: aqua;
+    font-weight: bold;
+    margin: 30px;
+
+}
+
+.weatherInfo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    }
+.weather{
+    text-transform: uppercase;
+}
+
+.feel{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px;
+    gap:20px;
+}
+
+i{
+    color: red;
+}
